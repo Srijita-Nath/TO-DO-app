@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container {
+    width: 400px;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+li {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
